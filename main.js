@@ -16,6 +16,10 @@ while(true){
 
     switch(choise){
         case '1':
-            alert(`Ваш баланс : ${balance} `)
+            alert(`Ваш баланс : ${balance} `);
+            break;
+        case '2':
+            const amountToWithdraw = Number(prompt('введите сумму для снятия: '));
+            if(isNan)
     }
 }
